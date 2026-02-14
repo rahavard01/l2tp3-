@@ -61,9 +61,10 @@
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/rahavard01/l2tp3-/main/l2tp3.sh | sudo bash -s -- install
+
+##
 پس از نصب، برای ورود به منوی مدیریتی:
 
-```bash
 sudo l2tp3
 
 
