@@ -55,14 +55,8 @@
 
 ---
 
-## Quick Install
+## راهنمای نصب و راه اندازی
 
-روی **هر دو سرور (ایران و خارج)** اجرا کنید:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/rahavard01/l2tp3-/main/l2tp3.sh | sudo bash -s -- install
-
-##
 پس از نصب، برای ورود به منوی مدیریتی:
 
 sudo l2tp3
@@ -202,3 +196,13 @@ sudo l2tp3 apply
 اگر روی شبکه‌های خاص NAT/فایروال دارید، مطمئن شوید UDP Port تونل (پیش‌فرض 17010) بین دو سرور باز است.
 
 مقدار MTU روی کیفیت و پایداری تونل اثر دارد؛ اگر پکت‌لاست دیدید، MTU را کاهش دهید (مثلاً 1360 یا 1340).
+
+
+---
+
+## Quick Install
+
+روی **هر دو سرور (ایران و خارج)** اجرا کنید:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/rahavard01/l2tp3-/main/l2tp3.sh | sudo bash -s -- install
